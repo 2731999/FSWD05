@@ -1,0 +1,139 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.html{
+    font-size: 62.5%;
+}
+header {
+    height: 20rem;
+    width: auto;
+    border-radius: 2rem;
+    background-color: gray;
+    margin: 3rem;
+}
+
+h1 {
+    color: red;
+    margin-left: 50rem;
+    padding-top: 5rem;
+    font-size: 2rem;
+}
+
+.nav1 {
+
+    margin-left: 44rem;
+    font-size: 1.5rem;
+}
+
+a {
+    padding: 0.5rem;
+}
+
+img {
+    height: 20rem;
+    width: 30rem;
+    padding-left: 15rem;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    position: static;
+    position: relative;
+}
+
+p {
+    margin: 3rem;
+    font-size: 1.3rem;
+}
+
+.td1 {
+    background-color: yellow;
+    margin: 3rem;
+    border-radius: 5rem;
+}
+
+table {
+    margin: 2.5rem;
+}
+
+.container {
+    height: 22rem;
+    width: auto;
+    background-color: grey;
+    color: white;
+    border-radius: 2rem;
+    padding-top: 2rem;
+    margin: 2rem;
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-col {
+    padding-left: 2rem;
+    width: 25%;
+}
+
+.social-links {
+    list-style: none;
+}
+
+ul {
+    list-style: none;
+    font-size: 1.2rem;
+}
+
+.social-links img {
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+h4 {
+    margin-left: 2.8rem;
+    font-size: 1.1rem;
+}
+
+/* For Mobile devices */
+@media(max-width:480px) {
+    html {
+        font-size: 30%;
+    }
+    header{
+        background-color: black;
+        color: white;
+    }
+}
+
+/* For Tablets or iPad */
+/* @media(max-width:770px) {
+    html {
+        font-size: 50%;
+    }
+    header{
+        background-color: red;
+        color:yellow;
+    }
+} */
+
+/* For Laptop or small-size screen */
+/* @media(max-width:1024px) and(min-width) {
+    html {
+        font-size: 70%;
+    }
+    header{
+        background-color:green;
+        color:yellow;
+    }
+} */
+
+/* For Desktop or large-size screen */
+/* @media(max-width:1200px) {
+    html {
+        font-size: 90%;
+    }
+    header{
+        background-color: rosybrown;
+        color:brown;
+    }
+} */
